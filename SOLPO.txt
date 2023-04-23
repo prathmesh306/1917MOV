@@ -1,0 +1,5 @@
+solpu
+
+python -V
+cd C:\Users\dell\Desktop\selinium\
+python ht2.py
