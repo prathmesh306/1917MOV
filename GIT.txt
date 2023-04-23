@@ -1,0 +1,12 @@
+git config --global user.name "prathmesh306"
+git config --global user.email "prathmeshpatel306"
+mkdir project56
+cd project56
+git init
+git commit -m "cheat"
+git remote add origin https://github.com/prathmesh306/1917MOV.git
+git push -u origin master
+
+new folder for pull ////
+or --> git remote add origin https://github.com/prathmesh306/1917MOV.git
+git pull origin master

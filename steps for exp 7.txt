@@ -1,0 +1,28 @@
+go to docker desktop in container section delete all the containers and in images section delete all images.
+
+go to dockerhub sign in to your account and create repositiory
+
+create a php project in your system
+
+open cmd run as administrartor
+commands:
+-->docker login
+-->cd(the folder where index and dockerfile is there)
+-->docker build . -t images/php
+-->docker images
+-->docker tag  9e3dcada7172 prathmeshpatel
+-->docker images
+-->ocker tag 9e3dcada7172 prathmeshpatel/php
+-->docker images
+-->docker push prathmeshpatel/php:latest
+
+EXP8 COMMANDS
+-->docker login
+-->docker pull ubuntu
+-->docker run --name ubuntupatel -it ubuntu
+-->docker diff ubuntusahil
+-->docker images
+-->docker commit ubuntupatel updateubuntuimage
+-->docker images 
+-->docker tag b9db526050e2 prathmeshpatel/exp8    //image id displayed in docker image command
+-->docker push prathmeshpatel/exp8:latest

@@ -1,0 +1,12 @@
+first create a freestyle project
+
+then make a git repo where u will add java files
+
+follow git commands for pushing the the java files into the github repo
+
+then jo to jenkins and in build periodically write H/2 * * * *
+
+
+then select git and the link for git repo
+
+then build the job

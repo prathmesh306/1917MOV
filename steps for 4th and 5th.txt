@@ -1,0 +1,5 @@
+first go to htdocs in c. Then create three different folders where each folder will have its own html file.so in short we will have three html files.
+go to pipeline
+for exp4- just write the script and no git link
+for exp5 - select pipeline scm and give the git link.
+for showing the commited changes. go to github and ooen the file where u want to make change. MAake the change. then rerun the jenkins file. and then we will notice the change.

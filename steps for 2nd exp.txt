@@ -1,0 +1,10 @@
+create afreestyle project in java
+first create a java file somwhere and copy its path.
+in gneral section ina dvancaed section create custom workspace
+ in directory, add the copied java path.
+in build steps select execute windows batch commands and write follwing teo commands
+-->javac file name.java
+-->java filename.java
+
+
+if you are getting error in java file, then go to manage jenkins->system tools->click on add jdk->name=JAVA_HOME->give the path for jdk17 with slash at last.
